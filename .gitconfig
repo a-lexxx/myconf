@@ -1,0 +1,9 @@
+[user]
+	name = Фурсенко Александр
+	email = alex1@kimkfu.ru
+[alias]
+	hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	ll = log --pretty=format:'%C(red)%h%C(yellow)%d\\ %Creset%s%C(bold blue)\\ [%cn]' --decorate --numstat
+	st = status
+	co = checkout
+	
