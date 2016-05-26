@@ -70,10 +70,6 @@ set listchars=tab:→·,trail:·
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" install Vundle
-" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-" vim +PluginInstall +qall
-" Launch vim and run :PluginInstall
 "
 " To install from command line: vim +PluginInstall +qall
 "
@@ -165,3 +161,9 @@ map 1 :FufBuffer<cr>
 map 2 :FufCoverageFile<cr> 
 map 6 :FufQuickfix<cr> 
 
+
+
+" on first install use command
+"
+" install Vundle
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim;  vim +PluginInstall +qall;  mkdir -p ~/.vim/colors; ln -s  ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
