@@ -34,6 +34,7 @@ xterm*|rxvt*)
 esac
 
 export LS_OPTIONS='--color=auto'
+export LESS="-irAwj3" #Xe
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
