@@ -3,6 +3,8 @@
 
 export TERM=xterm-256color
 
+stty iutf8 # unicode integration
+
 HISTCONTROL=$HISTCONTROL${HISTCONTROL+:}ignoredups
 HISTCONTROL=ignoreboth
 
